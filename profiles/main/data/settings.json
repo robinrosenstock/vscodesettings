@@ -1,0 +1,164 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "keyboard.dispatch": "keyCode",
+    "editor.wordWrap": "on",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorWidth": 3,
+    "editor.renderWhitespace": "all",
+    "workbench.colorCustomizations": {
+        "[Default Light Modern]": {
+            "editorCursor.foreground": "#ffc400",
+            "editor.selectionBackground": "#b49db270",
+            // "editor.lineHighlightBackground": "#333333",
+            // "editor.background": "#FFFFFF",
+            // "tab.activeBackground": "#303020",
+            "tab.activeBorderTop": "#ffc400",
+            "editor.lineHighlightBorder": "#444",
+            "editor.selectionHighlightBackground": "#dda8db00",
+            "editor.selectionHighlightBorder": "#888888",
+            // "editorSuggestWidget.background": "#222222",// widget bg
+            // "editorSuggestWidget.selectedBackground": "#555555",
+            "editorSuggestWidget.highlightForeground": "#ff6a00"
+        },
+        "[Default Dark Modern]": {
+            "editorCursor.foreground": "#ffc400",
+            "editor.selectionBackground": "#b49db270",
+            // "editor.lineHighlightBackground": "#333333",
+            // "editor.background": "#FFFFFF",
+            // "tab.activeBackground": "#303020",
+            "tab.activeBorderTop": "#ffc400",
+            "editor.lineHighlightBorder": "#444",
+            "editor.selectionHighlightBackground": "#dda8db00",
+            "editor.selectionHighlightBorder": "#888888",
+            "editorSuggestWidget.background": "#222222",// widget bg
+            "editorSuggestWidget.selectedBackground": "#555555",
+            "editorSuggestWidget.highlightForeground": "#ff6a00"
+        }
+    },
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#777777"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 15,
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.showSlider": "always",
+    "files.simpleDialog.enable": true,
+    "editor.largeFileOptimizations": false,
+    "foam.graph.style": {
+        // "background": "#202020",
+        "fontSize": 14,
+        "lineColor": "#FFFFFF",
+        "lineWidth": 0.8,
+        "particleWidth": 1.0,
+        "highlightedForeground": "#D4AF37",
+        "node": {
+            "note": "white",
+            "feature": "#E6BE8A",
+            "placeholder": "#CD853F",
+            "uknown": "red",
+            "nonExistingNote": "red",
+        }
+    },
+    "terminal.integrated.fontFamily": "'Fira Code', 'MesloLGS NF', 'Consolas'",
+    "workbench.iconTheme": "vscode-icons",
+    "extensions.ignoreRecommendations": true,
+    "workbench.preferredDarkColorTheme": "Base16 Tomorrow Dark",
+    "workbench.sash.size": 6,
+    "gitlens.views.commits.files.layout": "list",
+    "files.watcherExclude": {
+        "/home/robin/shares/**": true
+    },
+    "jupyter.askForKernelRestart": false,
+    "window.restoreWindows": "none",
+    "git.confirmSync": false,
+    "files.hotExit": "off",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "terminal.integrated.tabs.enabled": true,
+    "git.autofetch": true,
+    "workbench.panel.defaultLocation": "right",
+    "terminal.integrated.cursorStyle": "line",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.scrollback": 1000000,
+    "terminal.integrated.inheritEnv": false,
+    "gitlens.integrations.enabled": true,
+    "gitlens.remotes": [{
+        "regex": "https:\/\/(fx-bitbucket.intranet.db.com).*\/scm\/abfx(.*).git",
+        // "domain": "fx-bitbucket.intranet.db.com",
+        "type": "Custom",
+        "name": "Deutsche Bank fx-bitbucket ABFX",
+        "protocol": "https",
+        "urls": {
+        "repository": "https://fx-bitbucket.intranet.db.com/projects/repos/${repoPath}",
+        "branches": "https://fx-bitbucket.intranet.db.com/projects/repos/${repoPath}/branches",
+        "branch": "https://fx-bitbucket.intranet.db.com/projects/repos/${repoPath}/commits/${branch}",
+        "commit": "https://fx-bitbucket.intranet.db.com/projects/repos/${repoPath}/commit/${id}",
+        "file": "https://fx-bitbucket.intranet.db.com/projects/repos/${repoPath}?path=${file}${line}",
+        // "fileInBranch": "https://fx-bitbucket.intranet.db.com/${repoBase}/${repoPath}/${file}${line}",
+        "fileInBranch": "https://fx-bitbucket.intranet.db.com/projects/ABFX/repos/${repoPath}/browse/${file}${line}",
+        "fileInCommit": "https://fx-bitbucket.intranet.db.com/projects/repos/${repoPath}/blob/${id}/${file}${line}",
+        "fileLine": "#L${line}",
+        "fileRange": "#L${start}-L${end}"
+        }
+        }],
+    "foam.edit.linkReferenceDefinitions": "withExtensions",
+    "foam.files.attachmentExtensions": "pdf mp3 webm wav m4a mp4 avi mov rtf txt doc docx pages xls xlsx numbers ppt pptm pptx py ipynb doc docx",
+    "foam.files.ignore": [
+        "**/.vscode/**/*",
+        "**/_layouts/**/*",
+        "**/translate-git-repo/**/*",
+        "**/_site/**/*",
+        "**/node_modules/**/*"
+    ],
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown-preview-enhanced.liveUpdate": false,
+    "markdown-preview-enhanced.scrollSync": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "hediet.vscode-drawio.resizeImages": null,
+    "git.enableSmartCommit": true,
+    "markdown.suggest.paths.includeWorkspaceHeaderCompletions": "onSingleOrDoubleHash",
+    "workbench.editor.highlightModifiedTabs": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.editor.empty.hint": "hidden",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "settingsSync.ignoredSettings": [
+
+    ],
+    "settingsSync.ignoredExtensions": [
+
+    ],
+    "gitlens.plusFeatures.enabled": false,
+    "files.associations": {
+        "*.conf": "groovy"
+    },
+    "terminal.integrated.defaultLocation": "editor",
+    "java.import.gradle.wrapper.enabled": false,
+    "workbench.sideBar.location": "right",
+    "diffEditor.maxComputationTime": 0,
+    "gitlens.views.formats.commits.label": "${id}: ${❰ tips|11? ❱➤  }${message}",
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "editor.rulers": [
+    
+    ],
+    "cursor-ruler.color": "#666",
+    "window.zoomLevel": 0.5,
+    "git.postCommitCommand": "sync",
+}
